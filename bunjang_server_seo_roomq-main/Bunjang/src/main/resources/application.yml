@@ -1,0 +1,16 @@
+server:
+  port: 9000  # 9000번 포트로 실행
+  servlet:
+    encoding:
+      force-response: true
+
+spring:
+  application:
+    name: demo
+
+  datasource:
+    platform: mysql
+    url: jdbc:mysql://
+    username:
+    password: 
+    driver-class-name: com.mysql.cj.jdbc.Driver
